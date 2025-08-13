@@ -1,0 +1,11 @@
+{
+  "book_id": "B-101",
+  "title": "Martin Eden",
+  "author": "Jack London",
+  "genre": "Novel",
+  "price": 310,
+  "currency": "RUB",
+  "in_stock": true,
+  "rating": 4.8,
+  "reviews_count": 152
+}

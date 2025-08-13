@@ -1,0 +1,18 @@
+{
+  "user_id": 123456789,
+  "username": "bookman",
+  "first_name": "Никита",
+  "last_name": "Шаповалов",
+  "language_code": "ru",
+  "registered_at": "2025-08-13T15:05:00Z",
+  "loyalty_status": "silver",
+  "email": "Shapovalov@example.com",
+  "phone": "+79111234567",
+  "default_address": {
+    "city": "Москва",
+    "street": "Тверская",
+    "house": "17",
+    "apartment": "45",
+    "postal_code": "123456"
+  }
+}

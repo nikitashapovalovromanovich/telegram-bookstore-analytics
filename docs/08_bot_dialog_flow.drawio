@@ -1,0 +1,253 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.9">
+  <diagram name="Bot Dialog Flow Full" id="0">
+    <mxGraphModel dx="7130" dy="4915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Пользователь запускает бота" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;" parent="1" vertex="1">
+          <mxGeometry x="10" y="270" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Бот: Приветствие, главное меню: Каталог / Поиск / Корзина / Аккаунт / Помощь" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9ead3;" parent="1" vertex="1">
+          <mxGeometry x="290" y="260" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Меню: выбор опции" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="690" y="260" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Каталог: показать список книг" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce5cd;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="40" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" source="5" target="7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Поиск: ввести ключевые слова" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ead1dc;" parent="1" vertex="1">
+          <mxGeometry x="940" y="-140" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" source="5" target="9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Корзина: просмотр / редактирование" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;" parent="1" vertex="1">
+          <mxGeometry x="1170" y="150" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" source="5" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Аккаунт: регистрация / профиль" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e0e3;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="260" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" source="5" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Помощь / Поддержка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="490" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" source="5" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Фильтрация: жанр / цена / популярность" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ead1dc;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" source="7" target="17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Результаты: список карточек (обложка, автор, цена)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dbeef3;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="-110" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" source="17" target="19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Детали книги: описание, рейтинг, наличие" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e0e3;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="-220" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="1" source="19" target="21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="Добавить в корзину (указать кол-во)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;" parent="1" vertex="1">
+          <mxGeometry x="2430" y="-210" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="1" source="21" target="23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="Переход к оформлению / кнопка &#39;Оформить&#39;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="2430" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="1" source="11" target="25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="1" source="23" target="25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="Оформление: ввод контактных данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6b8af;" parent="1" vertex="1">
+          <mxGeometry x="2960" y="-170" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="1" source="25" target="28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="Валидация данных: корректность ввода?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fbe5d6;" parent="1" vertex="1">
+          <mxGeometry x="2960" y="30" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="31" parent="1" source="28" target="30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="Ошибка ввода: показать сообщение и запросить корректные данные" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd6d6;" parent="1" vertex="1">
+          <mxGeometry x="3430" y="30" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="33" parent="1" source="30" target="32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="Ввод корректных данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9ead3;" parent="1" vertex="1">
+          <mxGeometry x="3480" y="220" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="35" parent="1" source="32" target="34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" parent="1" source="34" target="30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="Валидация ОК" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9f7be;" parent="1" vertex="1">
+          <mxGeometry x="2960" y="210" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="38" parent="1" source="30" target="37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="Оплата: интеграция с платёжным сервисом" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b6d7a8;" parent="1" vertex="1">
+          <mxGeometry x="3160" y="540" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="40" parent="1" source="37" target="39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="Статус оплаты: Успех" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#c9daf8;" parent="1" vertex="1">
+          <mxGeometry x="3850" y="550" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42" parent="1" source="39" target="41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="Статус оплаты: Ошибка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd6d6;" parent="1" vertex="1">
+          <mxGeometry x="3780" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="44" parent="1" source="39" target="43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="Сохранение заказа в БД (система)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333" parent="1" vertex="1">
+          <mxGeometry x="3970" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="46" parent="1" source="41" target="45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="Уведомление (Telegram): номер заказа, статус" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff0b3;" parent="1" vertex="1">
+          <mxGeometry x="4470" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="48" parent="1" source="45" target="47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="Уведомление : детали заказа&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f7fa;" parent="1" vertex="1">
+          <mxGeometry x="4470" y="170" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="50" parent="1" source="45" target="49" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="Завершение: заказ оформлен" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;" parent="1" vertex="1">
+          <mxGeometry x="4930" y="30" width="260" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="52" parent="1" source="47" target="51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="Оплата не прошла: предложить повтор или отмену" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd6d6;" parent="1" vertex="1">
+          <mxGeometry x="4190" y="530" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="54" parent="1" source="43" target="53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="55" value="Пользователь выбирает: Повторить оплату / Отменить" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="4710" y="530" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="56" parent="1" source="53" target="55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="57" value="Отмена заказа: пометить как отменённый" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cbad;" parent="1" vertex="1">
+          <mxGeometry x="5190" y="530" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="58" parent="1" source="55" target="57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="59" value="Запрос на возврат (после доставки)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6b8af;" parent="1" vertex="1">
+          <mxGeometry x="5390" y="40" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60" parent="1" source="51" target="59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="61" value="Переход: Помощь / FAQ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62" parent="1" source="15" target="61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="63" value="FAQ: автоответы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9ead3;" parent="1" vertex="1">
+          <mxGeometry x="1730" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="64" parent="1" source="61" target="63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="65" value="Связь с оператором: отправить запрос оператору" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f4cccc;" parent="1" vertex="1">
+          <mxGeometry x="2090" y="490" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="66" parent="1" source="63" target="65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67" value="Оператор: отвечает клиенту и решает проблему" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="4000" y="840" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="68" parent="1" source="65" target="67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="69" value="Регистрация / Авторизация" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0e0e3;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="260" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="70" parent="1" source="13" target="69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="71" value="Проверка: пользователь зарегистрирован?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fbe5d6;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="180" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="72" parent="1" source="69" target="71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="73" value="Если не зарегистрирован: регистрация&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="160" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="74" parent="1" source="71" target="73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75" value="Регистрация успешно: вернуться к действию" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d9f7be;" parent="1" vertex="1">
+          <mxGeometry x="2400" y="350" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="76" parent="1" source="73" target="75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="77" parent="1" source="75" target="71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="78" value="Диалог окончен / возвращение в главное меню" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cfe2f3;" parent="1" vertex="1">
+          <mxGeometry x="5550" y="280" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="79" parent="1" source="51" target="78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="80" parent="1" source="57" target="78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="81" parent="1" source="67" target="78" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dZmaYh2PfZQf8kdITR0A-81" value="&lt;font style=&quot;font-size: 73px;&quot; face=&quot;Times New Roman&quot;&gt;Ключевые этапы взаимодействия пользователя с ботом&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2560" y="-840" width="1720" height="310" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

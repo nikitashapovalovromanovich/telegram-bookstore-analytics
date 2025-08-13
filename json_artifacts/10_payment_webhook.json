@@ -1,0 +1,9 @@
+{
+  "event": "payment_success",
+  "payment_id": "PAY-001",
+  "order_id": "ORD-2025-0001",
+  "amount": 1000,
+  "currency": "RUB",
+  "timestamp": "2025-08-13T15:07:01Z",
+  "signature": "f4a9c2d9ab..."
+}

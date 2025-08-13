@@ -1,0 +1,19 @@
+{
+  "success_response": {
+    "status": "ok",
+    "data": {
+      "order_id": "ORD-2025-0001",
+      "message": "Order created successfully"
+    }
+  },
+  "error_response": {
+    "status": "error",
+    "code": "BOOK_OUT_OF_STOCK",
+    "message": "The requested book is not available"
+  },
+  "validation_error": {
+    "status": "error",
+    "code": "INVALID_ADDRESS",
+    "message": "Postal code format is incorrect"
+  }
+}

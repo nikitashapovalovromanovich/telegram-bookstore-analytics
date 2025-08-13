@@ -1,0 +1,10 @@
+{
+  "date": "2025-08-13",
+  "new_users": 15,
+  "orders_placed": 7,
+  "orders_completed": 6,
+  "most_popular_book": "1984",
+  "total_revenue": 3200,
+  "average_order_value": 457.14,
+  "repeat_customers": 3
+}

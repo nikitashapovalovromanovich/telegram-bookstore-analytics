@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-08-13T15:10:00Z",
+  "error_code": "API_TIMEOUT",
+  "message": "Payment service did not respond within 30 seconds",
+  "request_data": {
+    "order_id": "ORD-2025-0002"
+  },
+  "severity": "high"
+}

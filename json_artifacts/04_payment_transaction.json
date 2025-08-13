@@ -1,0 +1,14 @@
+{
+  "payment_id": "PAY-001",
+  "order_id": "ORD-2025-0001",
+  "method": "bank_card",
+  "amount": 1000,
+  "currency": "RUB",
+  "status": "success",
+  "paid_at": "2025-08-13T15:07:00Z",
+  "transaction_details": {
+    "bank_name": "Sberbank",
+    "card_last4": "1234",
+    "transaction_id": "TXN-982374"
+  }
+}

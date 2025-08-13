@@ -1,0 +1,8 @@
+{
+  "genres": [
+    { "code": "DYST", "name": "Dystopia" },
+    { "code": "CLAS", "name": "Classics" },
+    { "code": "SCI", "name": "Science Fiction" },
+    { "code": "ROM", "name": "Romance" }
+  ]
+}
